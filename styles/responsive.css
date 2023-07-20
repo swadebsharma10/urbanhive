@@ -1,0 +1,17 @@
+@media screen and (max-width: 400px ) {
+    .nav-container{
+        flex-direction: column;
+    }
+    .menu-container ul{
+        flex-direction: column;
+    }
+    .menu-container li{
+        margin-top: 10px;
+    }
+    .menu-container{
+        width: 100%;
+    }
+    .login-btn{
+        margin-bottom: 10px;
+    }
+}

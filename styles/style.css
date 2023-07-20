@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital@0;1&family=Open+Sans&family=Work+Sans:wght@400;600;700&display=swap");
+* {
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Work Sans", sans-serif;
+ margin: 0;
+ padding: 0;
+}
+.header{
+  background-color: #9376E0;
+}
+.nav-container {
+  min-height: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+.logo-container {
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
+.logo-container img {
+  width: 80px;
+  object-fit: cover;
+}
+.title {
+  font-size: 30px;
+  font-weight: bold;
+  margin-right: 20px;
+}
+.title .hive {
+  color: #ca41f6;
+  font-size: 40px;
+}
+
+.menu-container {
+  width: 50%;
+}
+.menu-container ul{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 20px;
+    align-items: center;
+}
+
+.menu-container li{
+    list-style: none;
+    margin-right: 30px;
+    font-size: 20px;
+    color: #fff;
+
+}
+.login-btn{
+  border: none;
+  background-color: #ca41f6;
+  padding: 10px 16px;
+  border-radius: 10px;
+  font-weight: 700;
+}
